@@ -20,8 +20,8 @@ import '../style/index.css';
 /**
  * Create a custom 404 error dialog.
  */
-const extension: JupyterLabPlugin<void> = {
-  id: 'afshin:jupyterlab_custom404',
+const main: JupyterLabPlugin<void> = {
+  id: '@afshin/custom404-extension:main',
   autoStart: true,
   activate: (app: JupyterLab) => {
     const bad = PageConfig.getOption('notFoundUrl');
@@ -48,7 +48,7 @@ const extension: JupyterLabPlugin<void> = {
 };
 
 
-export default extension;
+export default main;
 
 
 /**
