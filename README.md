@@ -1,6 +1,9 @@
 # @afshin/custom404-extension
 
-A JupyterLab extension that handles 404 errors.
+A JupyterLab extension that handles 404 errors. It is meant to replace the core
+`@jupyterlab/application-extension:notfound` extension.
+
+![@afshin/custom404-extension screenshot](screenshot.png?raw=true "@afshin/custom404-extension screenshot")
 
 
 ## Prerequisites
