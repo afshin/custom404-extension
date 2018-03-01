@@ -1,0 +1,44 @@
+{
+  "name": "@afshin/custom404-extension",
+  "version": "0.1.0",
+  "description": "A JupyterLab extension that handles 404 errors.",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/afshin/custom404-extension",
+  "bugs": {
+    "url": "https://github.com/afshin/custom404-extension/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "Afshin Darian",
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afshin/custom404-extension.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf lib",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^0.15.0",
+    "@jupyterlab/apputils": "^0.15.5",
+    "@jupyterlab/coreutils": "^1.0.9",
+    "@phosphor/widgets": "^1.5.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "typescript": "~2.6.0"
+  },
+  "jupyterlab": {
+    "extension": true
+  }
+}

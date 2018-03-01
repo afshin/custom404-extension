@@ -1,0 +1,25 @@
+.ad-Custom404 .jp-Dialog-content {
+  background-image: url('./images/404.jpg');
+  background-size: cover;
+  padding-top: 5px;
+  width: 450px;
+  height: 150px;
+}
+
+
+.ad-Custom404 .jp-Dialog-header {
+  display: none;
+}
+
+
+.ad-Custom404 .jp-Dialog-body {
+  background: transparent;
+}
+
+
+.ad-Custom404-content {
+  background: var(--jp-layout-color0);
+  color: var(--jp-warn-color0);
+  text-align: center;
+  opacity: 0.8;
+}
